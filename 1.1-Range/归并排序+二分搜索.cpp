@@ -70,10 +70,10 @@ int main() {
         posi_r = binSearch(points, posi_l, n, right);
         
         int fix = 0;
-        if (posi_l != -1) {
+        if (posi_l != -1) { // 开销相同时代码语义尽量明确，不要炫技
             if (points[posi_l] == left)
                 fix = 1;
-        }
+        } // 直接针对特殊情况寻找误差来源。利用大量测试用例枚举、归纳吃力不讨好 
         printf("%d\n", posi_r - posi_l + fix);
     }
     delete[] points; // delete[]在删除没有析构函数的基本数据结构时是O(1)操作
