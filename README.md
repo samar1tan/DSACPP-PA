@@ -1,2 +1,2 @@
-## DSACPP-PA - The Programming Assignments of *Data Structure and Algorithm*
-慕课DSACPP的编程作业
+## DSACPP-PA - The Programming Assignments of *Data Structures and Algorithms*
+学堂在线慕课《数据结构》的编程作业
