@@ -1,5 +1,5 @@
 // #include <iostream>
-/* printf/scanf明显快于cin/cout */
+/* printf/scanf快于cin/cout */
 #include <cstdio> 
 using namespace std;
 
