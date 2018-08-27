@@ -54,8 +54,8 @@ int main() {
         A.push(i);
     stack B(m);
 
-    // int* oprt = new int[2 * n]; // (push + pop) * n || NO
-    int* oprt = new int[2 * n];
+    int* oprt = new int[2 * n]; // (push + pop) * n || NO
+
 #define PUSH 0
 #define POP 1
 
