@@ -41,7 +41,7 @@ int main() {
 	for (int i = 0; i < n; i++)
 		scanf("%d", post + i);
 
-	convert(0, n - 1, 0, n - 1); // 注意边界值
+	convert(0, n - 1, 0, n - 1); // 边界值
 	
 	return 0;
 }
