@@ -7,7 +7,7 @@
 int pre[MAX];
 int post[MAX];
 int in[MAX]; 
-int n; // 加快速度，简化符号，把精力集中在算法实现上
+int n; // 加快速度，简化符号，将精力集中在算法实现上
 
 void convert(int l1, int r1, int l2, int r2) { // 边界是序列的基本参数；pre = [l1, r1], post = [l2, r2]
 	if (l1 == r1) {
