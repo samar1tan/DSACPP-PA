@@ -56,8 +56,8 @@ int main() {
 
     int* oprt = new int[2 * n]; // (push + pop) * n || NO
 
-#define PUSH 0
-#define POP 1
+    #define PUSH 0
+    #define POP 1
 
     int i = 0;
     for(int j = 0; i < n; i++) {
