@@ -1,6 +1,6 @@
 #include <cstdio>
 
-const int SIZE = 1<<21;   
+const int SIZE = 1 << 21;   
 struct fast_io{
     char inbuf[SIZE];  
     char outbuf[SIZE];  
